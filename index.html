@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <script src="./src/js/script.js" defer></script>
+    <title>Projeto Comentado: Luta</title>
+</head>
+<body>
+    <div class="fight-area">
+        <div id="char">
+            <div class="life-bar">
+                <div class="bar"></div>
+            </div>
+
+            <strong class="name">Peppa</strong>
+
+            <div>
+                <button class="attack-button">Atacar</button>
+            </div>
+        </div>
+
+        <div id="monster">
+            <div class="life-bar">
+                <div class="bar"></div>
+            </div>
+
+            <strong class="name">Paulo.l</strong>
+
+            <div>
+                <button class="attack-button">Atacar</button>
+            </div>
+        </div>
+    </div>
+
+    <ul class="log"></ul>
+
+    <!-- Importação do Javascript-->
+     <script src="./components/Character.js"></script>
+     <script src="./components/heros/Knight.js"></script>
+     <script src="./components/heros/Mage.js"></script>
+     <script src="./components/monster/BigMonster.js"></script>
+     <script src="./components/monster/LittleMonster.js"></script>
+</body>
+</html>
